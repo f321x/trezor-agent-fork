@@ -4,7 +4,7 @@ import socket
 import tempfile
 import threading
 
-import mock
+from unittest import mock
 import pytest
 
 from .. import server, util
